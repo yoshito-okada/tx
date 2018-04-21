@@ -1,7 +1,7 @@
 #ifndef __TX__QUATERNION_TYPES_HPP__
 #define __TX__QUATERNION_TYPES_HPP__
 
-#include "core_fwd.hpp"
+#include <tx/core_fwd.hpp>
 
 #define TX_ADDT(a, b) bp::result_of::make_expr< bp::tag::plus, a, b >::type
 #define TX_SUBT(a, b) bp::result_of::make_expr< bp::tag::minus, a, b >::type

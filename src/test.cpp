@@ -4,11 +4,11 @@
 #include <boost/numeric/ublas/io.hpp>
 #include <boost/proto/proto_typeof.hpp>
 
-#include "core.hpp"
-#include "least_squares.hpp"
-#include "math.hpp"
-#include "pdiff.hpp"
-#include "quaternion.hpp"
+#include <tx/core.hpp>
+#include <tx/least_squares.hpp>
+#include <tx/math.hpp>
+#include <tx/pdiff.hpp>
+#include <tx/quaternion.hpp>
 
 class pred {
   typedef boost::numeric::ublas::vector< double > vec_type;

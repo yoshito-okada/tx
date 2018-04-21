@@ -12,7 +12,7 @@
 #include <boost/numeric/ublas/vector.hpp>
 #include <boost/utility/enable_if.hpp>
 
-#include "pdiff.hpp"
+#include <tx/pdiff.hpp>
 
 namespace tx {
 namespace least_squares_detail {

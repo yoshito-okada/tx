@@ -1,8 +1,8 @@
 #ifndef __TX__SIMPLIFY_HPP__
 #define __TX__SIMPLIFY_HPP__
 
-#include "core.hpp"
-#include "utility.hpp"
+#include <tx/core.hpp>
+#include <tx/utility.hpp>
 
 namespace tx {
 namespace result_of {

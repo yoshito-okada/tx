@@ -11,7 +11,7 @@
 #include <boost/mpl/less.hpp>
 #include <boost/mpl/string.hpp>
 
-#include "core_fwd.hpp"
+#include <tx/core_fwd.hpp>
 
 namespace tx {
 template < std::size_t N > class context : public bp::callable_context< const context< N > > {

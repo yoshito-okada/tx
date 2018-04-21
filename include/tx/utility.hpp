@@ -4,7 +4,7 @@
 #include <boost/mpl/int.hpp>
 #include <boost/type_traits.hpp>
 
-#include "core_fwd.hpp"
+#include <tx/core_fwd.hpp>
 
 namespace tx {
 //

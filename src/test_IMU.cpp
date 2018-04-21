@@ -3,11 +3,11 @@
 #include <boost/math/quaternion.hpp>
 #include <boost/proto/proto_typeof.hpp>
 
-#include "core.hpp"
-#include "math.hpp"
-#include "pdiff.hpp"
-#include "quaternion.hpp"
-#include "simplify.hpp"
+#include <tx/core.hpp>
+#include <tx/math.hpp>
+#include <tx/pdiff.hpp>
+#include <tx/quaternion.hpp>
+#include <tx/simplify.hpp>
 
 TX_PLACEHOLDER_TYPE(0, 'wx') wx;
 TX_PLACEHOLDER_TYPE(1, 'wy') wy;

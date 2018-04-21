@@ -11,7 +11,7 @@
 #include <boost/preprocessor/repetition/repeat.hpp>
 #include <boost/preprocessor/repetition/repeat_from_to.hpp>
 
-#include "core_fwd.hpp"
+#include <tx/core_fwd.hpp>
 
 namespace tx {
 struct null_type {};

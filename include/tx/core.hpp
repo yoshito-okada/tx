@@ -6,9 +6,9 @@
 #include <boost/mpl/string.hpp>
 #include <boost/preprocessor/repetition/repeat_from_to.hpp>
 
-#include "context.hpp"
-#include "core_fwd.hpp"
-#include "make_array.hpp"
+#include <tx/context.hpp>
+#include <tx/core_fwd.hpp>
+#include <tx/make_array.hpp>
 
 namespace tx {
 template < unsigned int I, int C > struct placeholder {

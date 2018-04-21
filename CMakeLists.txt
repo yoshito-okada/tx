@@ -1,6 +1,8 @@
 project(tx)
 
-set(CMAKE_CXX_FLAGS "-O3")
-add_executable(test test.cpp)
+include_directories(include)
 
-add_executable(test_IMU test_IMU.cpp)
+set(CMAKE_CXX_FLAGS "-O3")
+add_executable(test src/test.cpp)
+
+add_executable(test_IMU src/test_IMU.cpp)

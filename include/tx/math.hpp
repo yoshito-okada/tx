@@ -6,7 +6,7 @@
 
 #include <boost/type_traits.hpp>
 
-#include "core.hpp"
+#include <tx/core.hpp>
 
 #define TX_UNARY_FUNCTION_IMPL_DEFINITION(impl, func, name)                                        \
   struct impl {                                                                                    \

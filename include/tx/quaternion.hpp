@@ -4,9 +4,9 @@
 #include <boost/math/quaternion.hpp>
 #include <boost/preprocessor/repetition/repeat.hpp>
 
-#include "context.hpp"
-#include "make_array.hpp"
-#include "quaternion_types.hpp"
+#include <tx/context.hpp>
+#include <tx/make_array.hpp>
+#include <tx/quaternion_types.hpp>
 
 namespace tx {
 template < typename Expr0, typename Expr1, typename Expr2, typename Expr3 > class quaternion {

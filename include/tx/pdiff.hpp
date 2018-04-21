@@ -1,9 +1,9 @@
 #ifndef __TX__PDIFF_HPP__
 #define __TX__PDIFF_HPP__
 
-#include "math.hpp"
-#include "simplify.hpp"
-#include "utility.hpp"
+#include <tx/math.hpp>
+#include <tx/simplify.hpp>
+#include <tx/utility.hpp>
 
 namespace tx {
 namespace result_of {
